@@ -61,19 +61,19 @@ header{
 }
 
 
-section{
+article{
   line-height: 2em;
   padding: 15px;
   margin: 20px;
 }
 
-section h1{
+article h1{
   font-size: 1.5em;
   padding-bottom: 15px;
   color: #630063;
 }
 
-section p{
+article p{
   padding-bottom: 15px;
   text-align: justify;
 }
