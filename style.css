@@ -6,6 +6,11 @@
   --cor2-2: #ffee33;
 }
 
+::selection {
+  color: white;
+  background: #990099ab;
+}
+
 *{
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
@@ -15,7 +20,7 @@
 
 header{
   background-color: var(--cor1);
-  background-image: linear-gradient(to bottom, var(--cor1),rgba(0, 0, 0, 0.57) 60%);
+  background-image: linear-gradient(to bottom, #600060,rgba(0, 0, 0, 0.693) 60%);
   color: #ffee00;
   display: flex;
   flex-direction: column;
@@ -24,17 +29,27 @@ header{
   padding: 30px 0px 0px 0px;
   border-bottom: 3px solid #ffee00;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.666);
+  text-shadow: 3px 3px 3px black;
 }
 
 .titulo-1{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 250px;
+  padding: 30px;
+}
+
+.iden{
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .titulo-1 h1{
-  font-size: 3em;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3.9em;
 }
 
 .titulo-1 p{
@@ -53,7 +68,9 @@ header{
 }
 
 .menu a{
+  font-size: 1.2em;
   color: #ffee00;
+  transition: .2s;
 }
 
 .menu a:hover{
