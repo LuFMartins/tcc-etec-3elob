@@ -7,7 +7,7 @@
 }
 
 ::selection {
-  color: white;
+  color: aquamarine;
   background: #990099ab;
 }
 
@@ -21,13 +21,13 @@
 header{
   background-color: var(--cor1);
   background-image: linear-gradient(to bottom, #600060,rgba(0, 0, 0, 0.693) 60%);
-  color: #ffee00;
+  color: var(--cor2);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   padding: 30px 0px 0px 0px;
-  border-bottom: 3px solid #ffee00;
+  border-bottom: 3px solid var(--cor2);
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.666);
   text-shadow: 3px 3px 3px black;
 }
@@ -59,7 +59,7 @@ header{
 .menu{
   background-color: rgba(0, 0, 0, 0.2);
   padding: 30px 0px;
-  box-shadow:inset 0px 0px 9px rgba(0, 0, 0, 0.535);
+  box-shadow:inset 0px 0px 9px 2px rgba(0, 0, 0, 0.405);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,6 +75,7 @@ header{
 
 .menu a:hover{
   color: white;
+  text-decoration: underline;
 }
 
 
@@ -98,4 +99,14 @@ article p{
 
 span{
   background-color: #ffee00;
+}
+
+footer{
+  background-color: var(--cor1);
+  background-image: linear-gradient(to bottom, #700070 50%,rgba(0, 0, 0, 0.693));
+  color: var(--cor2);
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.450);
+  border-top: 3px  solid var(--cor2);
 }
