@@ -102,19 +102,47 @@ article h1{
 article p{
   text-align: justify;
   font-size: 1.2em;
-  
+  line-height: 1.9em;
 }
 
-article .bloco{
+article .alerta{
   background-color: #e2c044e7;
-  text-align: center;
   padding: 15px;
   font-size: 1.5em;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.707);
+  margin: 15px 0px;
 }
 
-span{
-  background-color: var(--cor5);
+.alerta p{
+  text-align: center;
+  font-weight: bolder;
+}
+
+article ul{
+  list-style-position: inside;
+  line-height: 3em;
+}
+
+.bloco1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.b1, div.b2{
+  background-color: #9fb1b62c;
+  padding: 15px 30px;
+}
+
+.b1{
+  width: 500px;
+}
+.b2{
+  width: 300px;
+}
+
+h3{
+  font-size: 1.5em;
 }
 
 footer{
